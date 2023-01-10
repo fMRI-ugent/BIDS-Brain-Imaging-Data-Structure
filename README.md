@@ -10,5 +10,5 @@ Here is a tutorial from Andy's Brain Book using **dcm2bids** --> https://andysbr
 A tutorial is also offered on the **dcm2bids github page** --> https://unfmontreal.github.io/Dcm2Bids/docs/tutorial/first-steps/ 
 
 ```diff
-@@In the word file you can find a short tutorial with an example of a cconfiguration file and an event.tsv file.@@
+@@In the word file you can find a short tutorial with an example of a configuration file and an event.tsv file@@
 ```
