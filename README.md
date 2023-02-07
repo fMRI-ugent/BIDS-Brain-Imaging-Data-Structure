@@ -9,7 +9,7 @@ Here is a tutorial from Andy's Brain Book using **dcm2bids** --> https://andysbr
 
 A tutorial is also offered on the **dcm2bids github page** --> https://unfmontreal.github.io/Dcm2Bids/docs/tutorial/first-steps/ 
 
-A useful tool to anonymize BIDS dataset is [BIDSonym](https://peerherholz.github.io/BIDSonym/)
+A useful tool to anonymize BIDS dataset is [BIDSonym](https://peerherholz.github.io/BIDSonym/).
 
 
 
