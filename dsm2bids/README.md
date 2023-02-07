@@ -7,9 +7,9 @@ A tutorial is offered on the [dcm2bids github page](https://unfmontreal.github.i
 
 After following the instructions you arrive to the last 2 steps:
 1. Activate dcm2bids
-diff'''
-@@ciao@@
-diff'''
+'''diff
+@@ ciao @@
+'''
 
 3. Verify that dcm2bids works
 
