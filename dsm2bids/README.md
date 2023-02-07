@@ -8,11 +8,12 @@ A tutorial is offered on the [dcm2bids github page](https://unfmontreal.github.i
 After following the instructions you arrive to the last 2 steps:
 1. Activate dcm2bids
 ```diff
-@@ ciao @@
+@@ conda activate dcm2bids @@
 ```
-
 3. Verify that dcm2bids works
-
+```diff
+@@ dcm2bids --help @@
+```
 
 Now  let’s start to use dcm2bids to bidsify your data: 
 
