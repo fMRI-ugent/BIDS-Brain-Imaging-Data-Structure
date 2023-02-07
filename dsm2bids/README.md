@@ -1,7 +1,18 @@
-HOW TO CREATE A BIDS COMPATIBLE DATASET (using dcm2bids)
-A tutorial is offered on the dcm2bids github page: https://unfmontreal.github.io/Dcm2Bids/docs/tutorial/first-steps/ 
+## HOW TO CREATE A BIDS COMPATIBLE DATASET (using dcm2bids)
 
-At this  link you find all the instruction to install dcm2bids and its dependencies: https://unfmontreal.github.io/Dcm2Bids/docs/get-started/install/
+A tutorial is offered on the [dcm2bids github page](https://unfmontreal.github.io/Dcm2Bids/docs/tutorial/first-steps/)
+
+#### Before to start let's install dcm2bids and its dependencies
+[Here](https://unfmontreal.github.io/Dcm2Bids/docs/get-started/install/) all the instruction to install dcm2bids and its dependencies.
+
+After following the instructions you arrive to the last 2 steps:
+1. Activate dcm2bids
+diff'''
+@@ciao@@
+diff'''
+
+3. Verify that dcm2bids works
+
 
 Now  let’s start to use dcm2bids to bidsify your data: 
 
