@@ -13,5 +13,5 @@ A useful tool to anonymize BIDS dataset is [BIDSonym](https://peerherholz.github
 
 
 
-###In the word file you can find a short explanation using dcm2bids with an example of a configuration file and an event.tsv file###
+
 
