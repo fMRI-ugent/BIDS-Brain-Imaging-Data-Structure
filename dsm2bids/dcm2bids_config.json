@@ -1,0 +1,169 @@
+{
+  "descriptions": [
+    {
+         "dataType": "anat",
+         "modalityLabel": "T1w",
+         "criteria": {
+           "SeriesDescription": "Sag T1 MPRAGE 1x1x1",
+           "EchoTime": 0.00296
+         },
+         "sidecarChanges": {
+           "ProtocolName": "T1"
+         }
+       },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-loc_run-01",
+      "criteria": {
+        "SeriesDescription": "Localizer_run1"
+      },
+      "sidecarChanges": {
+        "TaskName": "loc"
+      }
+    },
+    {
+      "dataType": "func",
+      "modalityLabel": "bold",
+      "customLabels": "task-loc_run-02",
+      "criteria": {
+        "SeriesDescription": "Localizer_run2"
+      },
+      "sidecarChanges": {
+        "TaskName": "loc"
+      }
+    },
+    {
+     "dataType": "func",
+     "modalityLabel": "bold",
+     "customLabels": "task-signMVPA",
+     "criteria": {
+       "SeriesDescription": "MVPA_run1"
+     },
+     "sidecarChanges": {
+       "TaskName": "signMVPA"
+     }
+   },
+   {
+    "dataType": "func",
+    "modalityLabel": "bold",
+    "customLabels": "task-signMVPA",
+    "criteria": {
+      "SeriesDescription": "MVPA_run2"
+    },
+    "sidecarChanges": {
+      "TaskName": "signMVPA"
+    }
+  },
+  {
+   "dataType": "func",
+   "modalityLabel": "bold",
+   "customLabels": "task-signMVPA",
+   "criteria": {
+     "SeriesDescription": "MVPA_run3"
+   },
+   "sidecarChanges": {
+     "TaskName": "signMVPA"
+   }
+ },
+ {
+  "dataType": "func",
+  "modalityLabel": "bold",
+  "customLabels": "task-signMVPA",
+  "criteria": {
+    "SeriesDescription": "MVPA_run4"
+  },
+  "sidecarChanges": {
+    "TaskName": "signMVPA"
+  }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run5"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run6"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run7"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run8"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run9"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run10"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run11"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+},
+{
+ "dataType": "func",
+ "modalityLabel": "bold",
+ "customLabels": "task-signMVPA",
+ "criteria": {
+   "SeriesDescription": "MVPA_run12"
+ },
+ "sidecarChanges": {
+   "TaskName": "signMVPA"
+ }
+}
+  ]
+  }
