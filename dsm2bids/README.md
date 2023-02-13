@@ -5,7 +5,7 @@ A tutorial is offered on the [dcm2bids github page](https://unfmontreal.github.i
 #### Before to start let's install dcm2bids and its dependencies
 [Here](https://unfmontreal.github.io/Dcm2Bids/docs/get-started/install/) all the instruction to install dcm2bids and its dependencies.
 
-After following the instructions you arrive to the last 2 steps:
+After following the instructions you arrive to the last 2 steps (run in the terminal):
 1. Activate dcm2bids
 ```diff
 @@ conda activate dcm2bids @@
@@ -15,16 +15,34 @@ After following the instructions you arrive to the last 2 steps:
 @@ dcm2bids --help @@
 ```
 
-Now  let’s start to use dcm2bids to bidsify your data: 
+If everything works, let’s start to use dcm2bids to bidsify your data: 
 
 -	Create a folder for your BIDS_project (e.g.”my_BIDSproject”);
--	Open the terminal >> conda activate dcm2bids
--	Cd in the folder e.g >> cd /Users/stefaniamattioni/Documents/data/my_BIDSproject
--	(To check your current working directory type: pwd )
--	Create the typical scaffold for the BIDS structure >> dcm2bids_scaffold (this command is only creating a structure of empty folders, you need to do that only for your sub1).
--	Copy into the “sourcedata” folder the source data acquired from the scanner: e.g.”DCM-GE_SaintLuc”.
--	 
--	Convert the dicom files to nifti files and create the sidecar Jason file for each file: on the terminal type>> dcm2bids_helper -d sourcedata/[NameOfYourSourceDataFolderGoesHere] (this command will create a temporary folder “temp_dcm2bids” in which all the converted files + json files are stored). 
+-	Activate dcm2bids (if you didn't do that  already) Type in the terminal:
+```diff
+@@ conda activate dcm2bids @@
+```
+-	Cd in the project folder e.g >> cd /Users/stefaniamattioni/Documents/data/my_BIDSproject
+```diff
+@@ [HereGoesThePathTo/myBIDSproject @@
+```
+-	(If you need to check your current working directory type:
+```diff
+@@  pwd @@
+```
+-	Type this line to create the typical scaffold for the BIDS structure (this command is only creating a BIDS compatible structure of empty folders, you need to do that only for your sub1):
+```diff
+@@  dcm2bids_scaffold @@
+```
+-	Copy into the “sourcedata” folder the source data acquired from the scanner: e.g.”Dicom-GIfMI-UZ” (you can do this manually).
+
+-	Convert the dicom files to nifti files and create the sidecar Jason file for each data file: on the terminal type
+e.g. dcm2bids_helper -d sourcedata/Dicom-GIfMI-UZ
+
+```diff
+@@  dcm2bids_helper -d sourcedata/[NameOfYourSourceDataFolderGoesHere] @@
+```
+this command will create a temporary folder “temp_dcm2bids” in which all the converted files + json files are stored. 
 
 Note that if you already ran the conversion on one or more subject and you did not empty the temporary folder “tmp_dcm2bids”, you will get this error when running this step:
 dcm2bids_helper: error: Output directory /Documents/data/my_BIDSproject/tmp_dcm2bids/helper isn't empty, so some files could be overwritten or deleted.
