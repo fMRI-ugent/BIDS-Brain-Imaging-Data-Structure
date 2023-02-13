@@ -49,3 +49,5 @@ The exact command I used for my project is: dcm2bids -d sourcedata/DCM_GE_SaintL
 -	If you have functional data with a task (no resting-state) you should also include in the BIDS data folder a .tsv file for each run including the onset and duration of each events. Find here an example for one of my functional run (localizer task). 
 -	Finally use an online BIDS validator to check that your data structure is now BIDS compatible. 
 
+
+#### @Created by Stefania Mattioni. You can contact me at stefania.mattioni@ugent.be for any question.
