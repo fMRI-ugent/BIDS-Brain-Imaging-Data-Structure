@@ -2,7 +2,7 @@
 
 **What is bids?** See https://bids.neuroimaging.io
 
-Here you find the (slides)[https://docs.google.com/presentation/d/1112GFfZgLcbMD3hrEZmxbJ0KnnUbRtT2Q3vWXuRktnA/edit?usp=sharing] and the (recording)[https://ugentbe-my.sharepoint.com/:v:/g/personal/vincent_hoofs_ugent_be/EdmA_YqCoBVHusd-uUY5pqEBHrymGtDwoQob-ke9bL8JVg?e=YbjVN5] of a talk on bids from Remi Gau at UGent (CCN meeting) on January 2023.
+Here you find the [slides](https://docs.google.com/presentation/d/1112GFfZgLcbMD3hrEZmxbJ0KnnUbRtT2Q3vWXuRktnA/edit?usp=sharing) and the [recording](https://ugentbe-my.sharepoint.com/:v:/g/personal/vincent_hoofs_ugent_be/EdmA_YqCoBVHusd-uUY5pqEBHrymGtDwoQob-ke9bL8JVg?e=YbjVN5) of a talk on bids from Remi Gau at UGent (CCN meeting) on January 2023.
 
 How to convert your data into BIDS?
 Several converters exist: dcm2bids, heudiconv, bidscoin, bidskit, etc...
