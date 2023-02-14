@@ -79,7 +79,7 @@ However, you do not want all the acquisitions to be  converted into BIDS --> **Y
 -	Running this command should automatically create a folder in your project folder with the subject ID name (e.g: sub-01) in which you should find the data you specified in your configuration file now converted in BIDS format. 
 -	In addition, you will find also in the temporary folder a folder named as the subject ID in which you can find all the temporary files that have NOT been converted into BIDS. 
 -	If you have functional data with a task (no resting-state) you should also include in the BIDS data folder a .tsv file for each run including the onset and duration of each events. Find here an example for one of my functional run (localizer task). 
--	Finally use an online BIDS validator to check that your data structure is now BIDS compatible. 
+-	Finally use an [online BIDS validator](https://bids-standard.github.io/bids-validator/) to check that your data structure is now BIDS compatible --> even if the online validator asks for uploading the data, it will not do that but only look at the name of your files: DON'T WORRY, YOUR DATA ARE SAFE!
 
 
 #### @Created by Stefania Mattioni. You can contact me at stefania.mattioni@ugent.be for any question.
