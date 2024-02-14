@@ -14,8 +14,8 @@ A tutorial is also offered on the **dcm2bids github page** --> https://unfmontre
 A useful tool to anonymize BIDS dataset is [BIDSonym](https://peerherholz.github.io/BIDSonym/).
 
 In this repository you can find further information and material on how to use
-1. Heudiconv (see folder: HeuDiConv)
-2. dcm2bids (see folder: dcm2bids)
+1. Heudiconv (see folder: HeuDiConv) --> @Created by GonzalesGarcia in 2019
+2. dcm2bids (see folder: dcm2bids) -- @Created by StefaniaMattioni in 2023
 
 
 
